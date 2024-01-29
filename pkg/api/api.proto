@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package grpcapi;
+package api;
 
-option go_package = "github.com/JyotinderSingh/task-queue/pkg/grpcapi";
+option go_package = "github.com/selamyemru/TaskMaster-Master/pkg/api";
 
 enum TaskStatus {
   QUEUED = 0;
