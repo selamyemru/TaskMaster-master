@@ -10,9 +10,9 @@ import (
 	"sync"
 	"syscall"
 	"time"
-	pb"github.com/JyotinderSingh/task-queue/pkg/grpcapi"
-	"github.com/JyotinderSingh/task-queue/pkg/common"
 
+	"github.com/selamyemru/TaskMaster-Master/pkg/common"
+	pb"github.com/selamyemru/TaskMaster-Master/pkg/api"
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

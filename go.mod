@@ -1,4 +1,4 @@
-module github.com/JyotinderSingh/task-queue
+module github.com/selamyemru/TaskMaster-Master
 
 go 1.21.5
 require google.golang.org/grpc v1.60.0
