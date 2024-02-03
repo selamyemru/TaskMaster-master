@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/selamyemru/TaskMaster-Master/pkg/coordinator"
-	pb "github.com/selamyemru/TaskMaster-Master/pkg/api"
+	 pb "github.com/selamyemru/TaskMaster-Master/pkg/api"
+	 "google.golang.org/grpc"
 	"github.com/selamyemru/TaskMaster-Master/pkg/scheduler"
 	"github.com/selamyemru/TaskMaster-Master/pkg/worker"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
-	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )
 

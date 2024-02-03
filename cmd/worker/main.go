@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 
-	"github.com/JyotinderSingh/task-queue/pkg/worker"
+	"github.com/selamyemru/TaskMaster-Master/pkg/worker"
 )
 
 var (

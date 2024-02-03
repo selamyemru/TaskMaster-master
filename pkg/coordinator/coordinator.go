@@ -15,7 +15,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	pb  "github.com/selamyemru/TaskMaster-Master/pkg/api"
+	pb "github.com/selamyemru/TaskMaster-Master/pkg/api"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v4/pgxpool"
 
