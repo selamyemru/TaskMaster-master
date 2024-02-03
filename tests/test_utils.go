@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/selamyemru/TaskMaster-Master/pkg/coordinator"
-	 pb "github.com/selamyemru/TaskMaster-Master/pkg/api"
+	 pb "github.com/selamyemru/TaskMaster-Master/pkg/grpcapi"
 	 "google.golang.org/grpc"
 	"github.com/selamyemru/TaskMaster-Master/pkg/scheduler"
 	"github.com/selamyemru/TaskMaster-Master/pkg/worker"

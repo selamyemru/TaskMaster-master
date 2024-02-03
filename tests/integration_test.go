@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/selamyemru/TaskMaster-Master/pkg/common"
-	pb "github.com/selamyemru/TaskMaster-Master/pkg/api"
+	pb "github.com/selamyemru/TaskMaster-Master/pkg/grpcapi"
 	"google.golang.org/grpc"
 )
 
